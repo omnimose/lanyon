@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+# relative_permalinks: true
+
+# Setup
+title:               All About Data
+tagline:             Thoughts and readings on database and distributed systems
+description:         Blogs about databases and distributed systems, covers areas like transaction processing,
+                     recovery algorithm, query optimizer, concensus protocols, etc.
+url:                 https://omnimose.github.io
+baseurl:             ''
+paginate:            1
+
+# About/contact
+author:
+  name:              Zhan Li
+  email:             zhanl@hotmail.com
+
+# Custom vars
+version:             1.0.0
+
+theme: jekyll-theme-cayman
